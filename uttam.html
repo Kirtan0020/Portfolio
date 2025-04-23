@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uttam Interior - Project Details</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+      body { font-family: 'Inter', sans-serif; }
+      html { scroll-behavior: smooth; }
+    </style>
+   <script>
+      window.addEventListener("scroll", function () {
+        const navbar = document.getElementById("navbar");
+        if (window.scrollY > 10) {
+          navbar.classList.add("backdrop-blur", "bg-white/30", "shadow-md");
+          navbar.classList.remove("bg-indigo-700"); // Remove original bg
+        } else {
+          navbar.classList.remove("backdrop-blur", "bg-white/30", "shadow-md");
+          navbar.classList.add("bg-indigo-700"); // Reapply original bg
+        }
+      });
+    </script>
+</head>
+<body class="bg-gray-50 antialiased">
+    <nav id="navbar" class="fixed top-0 left-0 w-full z-50 transition-all duration-300 bg-indigo-700">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="flex justify-between h-16 items-center">
+            <a href="#" class="flex items-center space-x-3">
+              <img src="Image/001.png" class="h-8" alt="Logo">
+              <span class="text-xl font-bold text-gray-800">Kirtan Prajapati</span>
+            </a>
+            <div class="hidden md:flex space-x-8">
+                <a href="Index.html#home" class="text-black font-semibold hover:text-gray-500">Home</a>
+                <a href="Index.html#about" class="text-black font-semibold hover:text-gray-500">About</a>
+                <a href="Index.html#projects" class="text-black font-semibold hover:text-gray-500">Projects</a>
+                <a href="Index.html#skills" class="text-black font-semibold hover:text-gray-500">Skills</a>
+                <a href="Index.html#contact" class="text-black font-semibold hover:text-gray-500">Contact</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+<!-- Intro -->
+      <section class="py-10 px-6 text-center">
+        <p>
+            --------------
+        </p>
+        <p class="max-w-3xl mx-auto text-lg">
+          This project is a modern and responsive website built for an interior design studio. It highlights their portfolio, client testimonials, and contact details with a clean UI.
+        </p>
+        <a href="https://uttaminterior.infy.uk/" target="_blank"
+           class="mt-6 inline-block px-6 py-3 bg-indigo-700 text-white rounded hover:bg-indigo-800 transition">
+          🌐 Visit Uttam Interior Website
+        </a>
+      </section>
+
+      <!-- Screenshots -->
+      <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+      <!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<section class="w-full py-10 bg-gray-100" id="projects">
+    <div class="max-w-5xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-8">My Project Images</h2>
+      
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <!-- Slide 1 -->
+          <div class="swiper-slide">
+            <img src="Image/Uttam/Homepage/1.png" alt="Image 1" class="w-full rounded-xl shadow-lg" />
+          </div>
+          <!-- Slide 2 -->
+          <div class="swiper-slide">
+            <img src="Image/Uttam/Homepage/2.png" alt="Image 2" class="w-full rounded-xl shadow-lg" />
+          </div>
+          <!-- Slide 3 -->
+          <div class="swiper-slide">
+            <img src="Image/Uttam/Homepage/3.png" alt="Image 3" class="w-full rounded-xl shadow-lg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="Image/Uttam/Homepage/4.png" alt="Image 4" class="w-full rounded-xl shadow-lg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="Image/Uttam/Homepage/5.png" alt="Image 5" class="w-full rounded-xl shadow-lg" />
+          </div>
+        </div>
+  
+        <!-- Navigation buttons -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </div>
+  </section>
+  <script>
+    const swiper = new Swiper(".mySwiper", {
+      loop: true,
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+    
+
+  
+   <!-- Features -->
+   <section class="py-16 px-6 bg-gradient-to-br from-indigo-50 to-white">
+    <h2 class="text-3xl font-bold text-center text-indigo-800 mb-10 tracking-tight">✨ Key Features</h2>
+    <div class="max-w-4xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-6">
+      
+      <div class="bg-white shadow-lg rounded-2xl p-6 hover:scale-105 transition-transform duration-300">
+        <div class="flex items-center space-x-4 mb-3">
+          <span class="text-indigo-600 text-2xl">💻</span>
+          <h3 class="text-lg font-semibold text-gray-800">Responsive Design</h3>
+        </div>
+        <p class="text-gray-600">Built with WordPress + Elementor for seamless responsiveness on all devices.</p>
+      </div>
+  
+      <div class="bg-white shadow-lg rounded-2xl p-6 hover:scale-105 transition-transform duration-300">
+        <div class="flex items-center space-x-4 mb-3">
+          <span class="text-indigo-600 text-2xl">🛠️</span>
+          <h3 class="text-lg font-semibold text-gray-800">Custom Post Types</h3>
+        </div>
+        <p class="text-gray-600">Projects and Testimonials have dedicated post types for easy content management.</p>
+      </div>
+  
+      <div class="bg-white shadow-lg rounded-2xl p-6 hover:scale-105 transition-transform duration-300">
+        <div class="flex items-center space-x-4 mb-3">
+          <span class="text-indigo-600 text-2xl">🎨</span>
+          <h3 class="text-lg font-semibold text-gray-800">CSS Styling</h3>
+        </div>
+        <p class="text-gray-600">Modern, utility-first CSS framework for better performance and design consistency.</p>
+      </div>
+  
+      <div class="bg-white shadow-lg rounded-2xl p-6 hover:scale-105 transition-transform duration-300">
+        <div class="flex items-center space-x-4 mb-3">
+          <span class="text-indigo-600 text-2xl">📩</span>
+          <h3 class="text-lg font-semibold text-gray-800">Integrated Contact Form</h3>
+        </div>
+        <p class="text-gray-600">Users can easily reach out through a styled contact form with email notifications.</p>
+      </div>
+  
+      <div class="bg-white shadow-lg rounded-2xl p-6 hover:scale-105 transition-transform duration-300 sm:col-span-2">
+        <div class="flex items-center space-x-4 mb-3">
+          <span class="text-indigo-600 text-2xl">🚀</span>
+          <h3 class="text-lg font-semibold text-gray-800">SEO & Performance Optimized</h3>
+        </div>
+        <p class="text-gray-600">Built with best practices to ensure high speed and better search engine visibility.</p>
+      </div>
+  
+    </div>
+  </section>
+  
+
+   <!-- Tech Stack -->
+   <section class="py-16 px-6 bg-gradient-to-br from-white to-gray-100 text-center">
+    <div class="max-w-3xl mx-auto">
+      <h2 class="text-4xl font-bold text-indigo-600 tracking-tight mb-6">Technology Stack</h2>
+<ul class="grid grid-cols-2 sm:grid-cols-3 gap-6 text-gray-800 text-lg font-medium">
+        <li class="bg-white p-4 rounded-xl shadow hover:shadow-lg transition-all flex items-center justify-center">
+            <img src="Image/Uttam/Wordpress.gif" alt="Description of image" width="30" height="30">
+          WordPress
+        </li>
+        <li class="bg-white p-4 rounded-xl shadow hover:shadow-lg transition-all flex items-center justify-center">
+            <img src="Image/Uttam/Elementor.gif" alt="Description of image" width="40" height="40">
+          Elementor
+        </li>
+        <li class="bg-white p-4 rounded-xl shadow hover:shadow-lg transition-all flex items-center justify-center">
+            <img src="Image/Uttam/ST.gif" alt="Description of image" width="30" height="30">
+          Starter Template
+        </li>
+        <li class="bg-white p-4 rounded-xl shadow hover:shadow-lg transition-all flex items-center justify-center">
+            <img src="Image/Uttam/css.gif" alt="Description of image" width="40" height="40">
+          CSS
+        </li>
+        <li class="bg-white p-4 rounded-xl shadow hover:shadow-lg transition-all flex items-center justify-center">
+            <img src="Image/Uttam/JS.gif" alt="Description of image" width="30" height="30">
+          JavaScript
+        </li>
+        <li class="bg-white p-4 rounded-xl shadow hover:shadow-lg transition-all flex items-center justify-center">
+            <img src="Image/Uttam/php.gif" alt="Description of image" width="40" height="40">
+          PHP
+        </li>
+      </ul> 
+      
+    </div>
+  </section>
+  
+<!-- Back to Portfolio -->
+<div class="text-center my-10">
+    <a href="index.php#projects" class="px-6 py-3 bg-indigo-700 text-white rounded hover:bg-indigo-800">
+      ← Back to Portfolio
+    </a>
+  </div>
+ <!-- Footer -->
+ <footer class="bg-gray-800 text-white text-center py-6">
+    <p>&copy; 2025 Kirtan Prajapati. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
