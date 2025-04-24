@@ -111,35 +111,35 @@ I’m always learning, experimenting with new technologies, and staying up-to-da
       <p class="text-gray-700 mt-4">Technologies I work with:</p>
       <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 mt-10">
         <div class="bg-white rounded-lg p-4 shadow hover:bg-indigo-50 transition">
-          <img src="path/to/html-icon.png" class="w-10 mx-auto mb-2" alt="HTML">
+          <img src="Image/icon/HTML.png" class="w-10 mx-auto mb-2" alt="HTML">
           <h3 class="text-lg font-medium">HTML</h3>
         </div>
         <div class="bg-white rounded-lg p-4 shadow hover:bg-indigo-50 transition">
-          <img src="path/to/css-icon.png" class="w-10 mx-auto mb-2" alt="CSS">
+          <img src="Image/icon/css.png" class="w-10 mx-auto mb-2" alt="CSS">
           <h3 class="text-lg font-medium">CSS</h3>
         </div>
         <div class="bg-white rounded-lg p-4 shadow hover:bg-indigo-50 transition">
-          <img src="path/to/js-icon.png" class="w-10 mx-auto mb-2" alt="JavaScript">
+          <img src="Image/icon/JS.png" class="w-10 mx-auto mb-2" alt="JavaScript">
           <h3 class="text-lg font-medium">JavaScript</h3>
         </div>
         <div class="bg-white rounded-lg p-4 shadow hover:bg-indigo-50 transition">
-          <img src="path/to/tailwind-icon.png" class="w-10 mx-auto mb-2" alt="TailwindCSS">
+          <img src="Image/icon/Tailwind.jpeg" class="w-10 mx-auto mb-2" alt="TailwindCSS">
           <h3 class="text-lg font-medium">TailwindCSS</h3>
         </div>
         <div class="bg-white rounded-lg p-4 shadow hover:bg-indigo-50 transition">
-          <img src="path/to/wordpress-icon.png" class="w-10 mx-auto mb-2" alt="WordPress">
+          <img src="Image/icon/wordpress.png" class="w-10 mx-auto mb-2" alt="WordPress">
           <h3 class="text-lg font-medium">WordPress</h3>
         </div>
         <div class="bg-white rounded-lg p-4 shadow hover:bg-indigo-50 transition">
-            <img src="path/to/com-icon.png" class="w-10 mx-auto mb-2" alt="Communication">
+            <img src="Image/icon/php.png" class="w-10 mx-auto mb-2" alt="Communication">
             <h3 class="text-lg font-medium">php</h3>
           </div>
           <div class="bg-white rounded-lg p-4 shadow hover:bg-indigo-50 transition">
-              <img src="path/to/com-icon.png" class="w-10 mx-auto mb-2" alt="Communication">
+              <img src="Image/icon/MySQL.png" class="w-10 mx-auto mb-2" alt="Communication">
               <h3 class="text-lg font-medium">MySQL</h3>
             </div>
         <div class="bg-white rounded-lg p-4 shadow hover:bg-indigo-50 transition">
-          <img src="path/to/git-icon.png" class="w-10 mx-auto mb-2" alt="Git">
+          <img src="Image/icon/git.png" class="w-10 mx-auto mb-2" alt="Git">
           <h3 class="text-lg font-medium">Git</h3>  
         </div>
       </div>
