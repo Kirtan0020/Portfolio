@@ -32,7 +32,7 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex justify-between h-16 items-center">
         <a href="#" class="flex items-center space-x-3">
-          <img src="Image/001.png" class="h-8" alt="Logo">
+          <img src="Image/logo.png" class="h-8" alt="Logo">
           <span class="text-xl font-bold text-gray-800">Kirtan Prajapati</span>
         </a>
         <div class="hidden md:flex space-x-8">
