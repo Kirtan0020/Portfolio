@@ -127,8 +127,12 @@ I’m always learning, experimenting with new technologies, and staying up-to-da
           <h3 class="text-lg font-medium">TailwindCSS</h3>
         </div>
         <div class="bg-white rounded-lg p-4 shadow hover:bg-indigo-50 transition">
-          <img src="Image/icon/wordpress.png" class="w-10 mx-auto mb-2" alt="WordPress">
+          <img src="Image/icon/wordpress.webp" class="w-10 mx-auto mb-2" alt="WordPress">
           <h3 class="text-lg font-medium">WordPress</h3>
+        </div>
+        <div class="bg-white rounded-lg p-4 shadow hover:bg-indigo-50 transition">
+          <img src="Image/icon/python.png" class="w-10 mx-auto mb-2" alt="WordPress">
+          <h3 class="text-lg font-medium">Python</h3>
         </div>
         <div class="bg-white rounded-lg p-4 shadow hover:bg-indigo-50 transition">
             <img src="Image/icon/php.png" class="w-10 mx-auto mb-2" alt="Communication">
@@ -138,9 +142,13 @@ I’m always learning, experimenting with new technologies, and staying up-to-da
               <img src="Image/icon/MySQL.png" class="w-10 mx-auto mb-2" alt="Communication">
               <h3 class="text-lg font-medium">MySQL</h3>
             </div>
+            <div class="bg-white rounded-lg p-4 shadow hover:bg-indigo-50 transition">
+              <img src="Image/icon/VS Code.webp" class="w-10 mx-auto mb-2" alt="Communication">
+              <h3 class="text-lg font-medium">VS Code</h3>
+            </div>
         <div class="bg-white rounded-lg p-4 shadow hover:bg-indigo-50 transition">
           <img src="Image/icon/git.png" class="w-10 mx-auto mb-2" alt="Git">
-          <h3 class="text-lg font-medium">Git</h3>  
+          <h3 class="text-lg font-medium">Github</h3>  
         </div>
       </div>
     </div>
